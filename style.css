@@ -281,6 +281,36 @@ footer p{
     header nav a:hover{
         color: orangered;
     }
+
+    .theme{
+        width: 48px;
+        height: 24px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        background-color: black;
+        top: 2px;
+        right: 20px;
+        border-radius: 25px;
+        cursor: pointer;
+    
+    }
+    
+    .roll{
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+        transition: .5s ease;
+    }
+
+    .right{
+        left: 24px;
+        transition: .5s ease;
+    }
     
     main{
         width: 100%;
